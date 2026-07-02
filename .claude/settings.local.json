@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(curl -sL -A \"Mozilla/5.0 \\(Macintosh; Intel Mac OS X 10_15_7\\) AppleWebKit/537.36 \\(KHTML, like Gecko\\) Chrome/120.0 Safari/537.36\" https://www.naeemmahmood.com/ -o /private/tmp/claude-501/-Users-naeem-naeem-website/26fff7d6-fc8b-4b65-b549-b290001e7ffc/scratchpad/index.html -w \"HTTP_CODE:%{http_code}\\\\nSIZE:%{size_download}\\\\n\")",
+      "WebFetch(domain:www.naeemmahmood.com)",
+      "mcp__Claude_in_Chrome__list_connected_browsers",
+      "Bash(python3 -c ' *)",
+      "Bash(curl -sL -A \"Mozilla/5.0 \\(Macintosh; Intel Mac OS X 10_15_7\\) AppleWebKit/537.36 \\(KHTML, like Gecko\\) Chrome/120.0 Safari/537.36\" https://www.naeemmahmood.com/apply -o apply.html -w \"HTTP_CODE:%{http_code}\\\\nSIZE:%{size_download}\\\\n\")",
+      "Bash(curl -sL https://www.naeemmahmood.com/sitemap.xml)",
+      "Bash(curl -sL https://www.naeemmahmood.com/robots.txt)",
+      "Bash(grep -oE '__NUXT_DATA__.{0,50}' index.html)",
+      "Skill(run)",
+      "Skill(run:*)",
+      "Bash(git init *)",
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)"
+    ]
+  }
+}
