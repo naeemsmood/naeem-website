@@ -13,7 +13,23 @@
       "Skill(run:*)",
       "Bash(git init *)",
       "Bash(git add *)",
-      "Bash(git commit -m ' *)"
+      "Bash(git commit -m ' *)",
+      "Bash(gh auth *)",
+      "Bash(gh repo *)",
+      "Bash(gh api *)",
+      "Bash(dig +short naeemmahmood.com A)",
+      "Bash(dig +short naeemmahmood.com CNAME)",
+      "Bash(dig +short www.naeemmahmood.com CNAME)",
+      "Bash(curl -sIL https://naeemmahmood.com/)",
+      "Bash(curl -sL https://naeemmahmood.com/)",
+      "Bash(dig +short naeemmood.com)",
+      "Bash(curl -sIL https://naeemmood.com/)",
+      "Bash(curl -sL https://naeemmood.com/)",
+      "Bash(wrangler --version)",
+      "Bash(wrangler whoami *)",
+      "Bash(dig +short naeem-website.pages.dev)",
+      "Bash(echo \"exit:$?\")",
+      "Bash(curl -v https://naeem-website.pages.dev)"
     ]
   }
 }
