@@ -1,6 +1,6 @@
-# The Mood Method — naeemmahmood.com
+# SuperMood — naeemmood.com
 
-Static rebuild of the site, previously hosted on GoHighLevel. Plain HTML/CSS/JS, no build step, no framework.
+Static site for Naeem Mahmood / SuperMood. Plain HTML/CSS/JS, no build step, no framework.
 
 ## Local preview
 
@@ -8,23 +8,19 @@ Static rebuild of the site, previously hosted on GoHighLevel. Plain HTML/CSS/JS,
 python3 -m http.server 8843
 ```
 
-Then open http://localhost:8843/
+Then open http://localhost:8843/public/
 
 ## Structure
 
-- `index.html` — the whole site (single page)
+- `index.html` — Home
+- `work-with-me.html` — The SuperMood Standard
+- `speaking.html` — Keynote Speaking
+- `about.html` — About Naeem
+- `breakthrough-call.html` — Apply for a Breakthrough Call (TidyCal embed)
 - `assets/css/styles.css` — all styles
-- `assets/js/main.js` — click-to-load YouTube embeds
-- `assets/img/` — self-hosted images (logos, hero photo)
+- `assets/js/main.js` — mobile nav toggle + scroll-reveal animations
+- `assets/img/favicon.svg` — inline SVG favicon
 
-## Deploying (GitHub + Cloudflare Pages)
+## Deploying (GitHub + Cloudflare)
 
-1. Create a new GitHub repo (e.g. `naeem-website`), push this folder to it.
-2. In Cloudflare dashboard: **Workers & Pages → Create → Pages → Connect to Git**, select the repo.
-3. Build settings: **no build command**, output directory `/` (root).
-4. Deploy. Cloudflare gives you a `*.pages.dev` URL immediately; add your custom domain (`naeemmahmood.com`) under the project's **Custom domains** tab once you're ready to cut over DNS.
-
-## Known follow-ups (not done in v1)
-
-- "Apply to Work With Me" buttons link to TidyCal (`https://tidycal.com/moodmethod/mood-method-discovery-call`) instead of rebuilding the old GHL lead-qualification form.
-- Favicon not yet set (old one was a blank GHL placeholder).
+This project deploys as a Cloudflare Workers static-assets site (see `wrangler.jsonc`). Push to `main` to deploy. Point the `naeemmood.com` custom domain at the Worker from the Cloudflare dashboard once ready to cut over DNS.
