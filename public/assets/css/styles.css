@@ -176,7 +176,8 @@ section { padding: 5rem 0; }
 @media (min-width: 900px) {
   .hero__grid { flex-direction: row; text-align: left; }
   .hero__grid .hero__content { flex: 1; }
-  .hero__grid .placeholder-photo { flex: 0 0 300px; }
+  .hero__grid .placeholder-photo,
+  .hero__grid .hero-photo { flex: 0 0 300px; }
   .hero__grid .hero__subtitle { margin-left: 0; }
   .hero__grid .cta-row { text-align: left; padding-left: 0; }
 }
@@ -197,6 +198,18 @@ section { padding: 5rem 0; }
   color: var(--color-text-muted);
   font-size: 0.9rem;
   padding: 1rem;
+}
+
+.hero-photo {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  aspect-ratio: 4 / 5;
+  margin: 0 auto;
+  display: block;
+  object-fit: cover;
+  border-radius: 12px;
+  border: 1px solid var(--color-border);
 }
 
 .placeholder-video {
