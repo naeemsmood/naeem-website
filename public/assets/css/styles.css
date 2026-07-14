@@ -283,6 +283,29 @@ section { padding: 5rem 0; }
   font-size: 1.25rem;
 }
 
+/* Video grid (podcast episodes, extra speaking clips) */
+.video-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.75rem;
+  margin-top: 2.5rem;
+}
+.video-embed-card .video-embed { margin-top: 0; }
+.video-embed-card__title {
+  margin: 0.9rem 0 0;
+  font-size: 0.95rem;
+  color: var(--color-text-muted);
+}
+
+/* Listen buttons (Podcast page) */
+.listen-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
 /* Scroll reveal */
 .reveal {
   opacity: 0;
