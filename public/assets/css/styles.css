@@ -442,6 +442,51 @@ section { padding: 5rem 0; }
   color: var(--color-accent);
 }
 
+/* Books page */
+.pull-quote {
+  border-left: 2px solid var(--color-accent);
+  padding: 0.25rem 0 0.25rem 1.75rem;
+  margin: 2rem 0;
+  font-family: var(--font-serif);
+  font-style: italic;
+  font-size: 1.1rem;
+  color: var(--color-text);
+}
+.pull-quote footer {
+  margin-top: 0.75rem;
+  font-family: var(--font-sans);
+  font-style: normal;
+  font-size: 0.85rem;
+  color: var(--color-text-muted);
+}
+.book-cat {
+  text-align: left;
+  margin-top: 3rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--color-border);
+}
+.book-cat:first-of-type { margin-top: 0; padding-top: 0; border-top: none; }
+.book-list {
+  list-style: none;
+  margin: 0 0 1rem;
+  padding: 0;
+}
+.book-list li {
+  padding: 0.7rem 0;
+  border-bottom: 1px solid var(--color-border);
+}
+.book-list a {
+  color: var(--color-text);
+  text-decoration: none;
+}
+.book-list a:hover { color: var(--color-accent); }
+.book-list a span {
+  display: block;
+  color: var(--color-text-muted);
+  font-size: 0.85rem;
+  margin-top: 0.15rem;
+}
+
 /* Booking embed */
 .booking-embed {
   width: 100%;
