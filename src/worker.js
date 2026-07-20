@@ -116,6 +116,7 @@ function pageShell(inner) {
     <a class="nav__logo" href="/">SuperMood</a>
     <div class="nav__links">
       <a class="nav__link" href="/work-with-me">Work With Me</a>
+      <a class="nav__link" href="/supermood-longevity">Longevity</a>
       <a class="nav__link" href="/speaking">Speaking</a>
       <a class="nav__link" href="/about">About</a>
       <a class="nav__link" href="/podcast">Podcast</a>
@@ -126,6 +127,7 @@ function pageShell(inner) {
   </div>
   <div class="nav__mobile container">
     <a class="nav__link" href="/work-with-me">Work With Me</a>
+    <a class="nav__link" href="/supermood-longevity">Longevity</a>
     <a class="nav__link" href="/speaking">Speaking</a>
     <a class="nav__link" href="/about">About</a>
     <a class="nav__link" href="/podcast">Podcast</a>
@@ -161,6 +163,7 @@ function pageShell(inner) {
       <div class="site-footer__links">
         <a href="/">Home</a>
         <a href="/work-with-me">Work With Me</a>
+        <a href="/supermood-longevity">Longevity</a>
         <a href="/speaking">Speaking</a>
         <a href="/about">About</a>
         <a href="/podcast">Podcast</a>
