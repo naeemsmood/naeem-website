@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Disallow: /supermood-invitation
+Disallow: /supermood-invitation.html
