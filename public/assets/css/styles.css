@@ -290,6 +290,13 @@ section { padding: 5rem 0; }
   gap: 1.75rem;
   margin-top: 2.5rem;
 }
+.video-grid--roomy {
+  grid-template-columns: 1fr;
+  gap: 3rem;
+}
+@media (min-width: 800px) {
+  .video-grid--roomy { grid-template-columns: repeat(2, 1fr); }
+}
 .video-embed-card .video-embed { margin-top: 0; }
 .video-embed-card__title {
   margin: 0.9rem 0 0;
