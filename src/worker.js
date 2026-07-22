@@ -122,6 +122,7 @@ function pageShell(inner) {
       <a class="nav__link" href="/podcast">Podcast</a>
       <a class="nav__link" href="/blog">Blog</a>
       <a class="nav__link" href="/peak-life-os">Peak Life OS</a>
+      <a class="nav__link" href="/daily">Daily</a>
       <a class="btn btn--primary btn--small" href="/breakthrough-call">Apply for a Breakthrough Call</a>
     </div>
     <button class="nav__toggle" aria-label="Toggle menu" aria-expanded="false">&#9776;</button>
@@ -134,6 +135,7 @@ function pageShell(inner) {
     <a class="nav__link" href="/podcast">Podcast</a>
     <a class="nav__link" href="/blog">Blog</a>
     <a class="nav__link" href="/peak-life-os">Peak Life OS</a>
+    <a class="nav__link" href="/daily">Daily</a>
     <a class="btn btn--primary btn--small" href="/breakthrough-call">Apply for a Breakthrough Call</a>
   </div>
 </nav>
@@ -171,6 +173,7 @@ function pageShell(inner) {
         <a href="/podcast">Podcast</a>
         <a href="/blog">Blog</a>
         <a href="/peak-life-os">Peak Life OS</a>
+        <a href="/daily">Daily</a>
       </div>
       <div class="site-footer__links">
         <a href="/breakthrough-call">Apply for a Breakthrough Call</a>
